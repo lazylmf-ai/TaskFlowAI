@@ -1,0 +1,62 @@
+# Xcode
+*.xcuserstate
+project.xcworkspace
+xcuserdata/
+UserInterfaceState.xcuserstate
+/*.gcda
+/*.gcno
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# IDE
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Build artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Derived data
+DerivedData/
+
+# Temporary files
+*.tmp
+*.log
+
+# Optional: Ignore user-specific settings
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+*.perspectivev3
+**/*~
+*.gtype
+*.gtype3
+
+# Preview images
+*.preview-thumbnails
